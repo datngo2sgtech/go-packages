@@ -7,7 +7,7 @@ import (
 
 	"github.com/joho/godotenv"
 
-	"github.com/saigontechnology/Golang-Project-Base/go-packages/must"
+	"https://github.com/datngo2sgtech/go-packages/must"
 )
 
 const (

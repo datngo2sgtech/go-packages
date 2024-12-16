@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/saigontechnology/Golang-Project-Base/go-packages/list"
+	"https://github.com/datngo2sgtech/go-packages/list"
 )
 
 func TestChunk(t *testing.T) {

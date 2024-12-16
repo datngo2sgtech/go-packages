@@ -9,7 +9,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/stretchr/testify/require"
 
-	"github.com/saigontechnology/Golang-Project-Base/go-packages/locale"
+	"https://github.com/datngo2sgtech/go-packages/locale"
 )
 
 func TestLocaleMiddleware(t *testing.T) {

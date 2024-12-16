@@ -1,4 +1,4 @@
-module github.com/saigontechnology/Golang-Project-Base/go-packages
+module https: //github.com/datngo2sgtech/go-packages
 
 go 1.23.4
 

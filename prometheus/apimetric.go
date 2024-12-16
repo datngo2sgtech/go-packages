@@ -9,7 +9,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/saigontechnology/Golang-Project-Base/go-packages/must"
+	"https://github.com/datngo2sgtech/go-packages/must"
 )
 
 var (

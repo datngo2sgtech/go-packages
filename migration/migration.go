@@ -9,7 +9,7 @@ import (
 	gormmysql "gorm.io/driver/mysql"
 	"gorm.io/gorm"
 
-	"github.com/saigontechnology/Golang-Project-Base/go-packages/must"
+	"https://github.com/datngo2sgtech/go-packages/must"
 
 	_ "github.com/golang-migrate/migrate/v4/source/file"
 )

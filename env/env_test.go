@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/saigontechnology/Golang-Project-Base/go-packages/env"
+	"https://github.com/datngo2sgtech/go-packages/env"
 )
 
 func TestEnvironment(t *testing.T) {
