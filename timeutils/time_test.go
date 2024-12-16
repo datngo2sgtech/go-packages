@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"https://github.com/datngo2sgtech/go-packages/timeutils"
+	"github.com/datngo2sgtech/go-packages/timeutils"
 )
 
 func TestTimeUtils_GetCurrentTime(t *testing.T) {

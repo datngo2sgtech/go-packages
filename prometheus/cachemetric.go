@@ -7,7 +7,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 
-	"https://github.com/datngo2sgtech/go-packages/must"
+	"github.com/datngo2sgtech/go-packages/must"
 )
 
 const (

@@ -7,7 +7,7 @@ import (
 
 	"github.com/joho/godotenv"
 
-	"https://github.com/datngo2sgtech/go-packages/must"
+	"github.com/datngo2sgtech/go-packages/must"
 )
 
 const (

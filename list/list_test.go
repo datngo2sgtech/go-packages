@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"https://github.com/datngo2sgtech/go-packages/list"
+	"github.com/datngo2sgtech/go-packages/list"
 )
 
 func TestIsSliceContainsPrefix(t *testing.T) {

@@ -1,4 +1,4 @@
-module https: //github.com/datngo2sgtech/go-packages
+module hgithub.com/datngo2sgtech/go-packages
 
 go 1.23.4
 

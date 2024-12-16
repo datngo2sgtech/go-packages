@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"https://github.com/datngo2sgtech/go-packages/locale"
+	"github.com/datngo2sgtech/go-packages/locale"
 )
 
 func TestExtractLanguageCode(t *testing.T) {
