@@ -12,9 +12,9 @@ import (
 	"github.com/newrelic/go-agent/v3/newrelic"
 	"github.com/redis/go-redis/v9"
 
-	"https://github.com/datngo2sgtech/go-packages/list"
-	"https://github.com/datngo2sgtech/go-packages/must"
-	"https://github.com/datngo2sgtech/go-packages/prometheus"
+	"github.com/datngo2sgtech/go-packages/list"
+	"github.com/datngo2sgtech/go-packages/must"
+	"github.com/datngo2sgtech/go-packages/prometheus"
 )
 
 type redisCache struct {
