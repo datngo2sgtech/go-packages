@@ -8,6 +8,7 @@ import (
 	"github.com/pkg/errors"
 	gormmysql "gorm.io/driver/mysql"
 	"gorm.io/gorm"
+	"gorm.io/gorm/schema"
 
 	"github.com/datngo2sgtech/go-packages/must"
 
@@ -22,7 +23,7 @@ type mysqlMigration struct {
 	m *migrate.Migrate
 }
 
-func NewMysqlMigration() MysqlMigration {
+func NewMysqlMigration(tablePrefix string) MysqlMigration {
 	cfg, err := newConfig()
 	must.NotFail(err)
 	// multiStatements=true is very important to execute a migration file with multi statements with an existing database connection
@@ -38,7 +39,11 @@ func NewMysqlMigration() MysqlMigration {
 	// Ref:
 	//    https://github.com/golang-migrate/migrate
 	//    https://en.wikipedia.org/wiki/Percent-encoding#Percent-encoding_reserved_characters
-	gormDB, err := gorm.Open(gormmysql.Open(dsn), &gorm.Config{})
+	gormDB, err := gorm.Open(gormmysql.Open(dsn), &gorm.Config{
+		NamingStrategy: schema.NamingStrategy{
+			TablePrefix: tablePrefix,
+		},
+	})
 	must.NotFail(err)
 	// Migrate use standard sqlDB
 	sqlDB, err := gormDB.DB()
